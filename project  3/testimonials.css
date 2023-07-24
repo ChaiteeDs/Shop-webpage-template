@@ -1,0 +1,186 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(134, 212, 205);
+
+    background: linear-gradient(to right, rgba(11, 12, 12, 0.5), rgb(116, 199, 237));
+  }
+  
+  .testimonial-container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  .testimonial {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .testimonial-container h1 {
+  margin: auto;
+  font-size: 50px;
+  color: #1b5651;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  display: inline;
+  text-align: center;
+}
+
+  .testimonial-container h1::after {
+    content: "";
+    width: 50px;
+    height: 35px;
+    background: linear-gradient(#019587, #fff);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-left-radius: 35px;
+  
+  } 
+
+
+
+
+
+
+
+
+
+
+
+
+  .testimonial img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 4px solid #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial-content {
+    flex: 1;
+  }
+  
+  .testimonial h3 {
+    margin: 0;
+    color: #2f661a;
+  }
+  
+  .testimonial p {
+    margin: 10px 0 0;
+    color: #666666;
+    cursor: pointer;
+  }
+  
+  .feedback-container {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  .feedback-container h2 {
+    margin-bottom: 10px;
+    color: #333333;
+  }
+  
+  .feedback-container form {
+    display: grid;
+    gap: 10px;
+  }
+  
+  .feedback-container label {
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  .feedback-container textarea {
+    height: 100px;
+   
+  }
+  
+  input[type="text" i]{
+    margin:0px;
+  }
+
+
+  /*.feedback-container button {
+    padding: 8px 16px;
+    background-color: #3e90bc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+  
+  
+
+  }
+  .feedback-container button:hover{
+  color: #ffffff;
+background-color: #267e87;
+  } */
+
+  footer {
+    background-color:  rgb(162, 231, 231);
+    padding: 20px;
+    color: white;
+    text-align: center;
+    background: linear-gradient(to right, rgba(11, 12, 12, 0.5), rgb(116, 199, 237));
+  }
+
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    resize: none;
+  }
+  
+  .form-group textarea {
+    height: 150px;
+  }
+  
+  button {
+    cursor: pointer;
+  }
+  
+  /* Optional: Custom styles for the form button */
+  .btn-primary {
+    background-color: #18658b;
+    border-color: #333;
+  }
+  
+  .btn-primary:hover {
+    background-color: #289277;
+    border-color: #1e698e;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(78, 157, 177);
+    box-shadow: 0 2px 6px rgba(18, 142, 142, 0.1);
+    border-radius: 5px;
+  }
+  
+  h2 {
+    color:#1b352b
+    margin-bottom: 20px;
+  }
+  
